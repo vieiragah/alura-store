@@ -30,7 +30,9 @@
         width: 100%;
         margin: 0 0 3em 0;
     }
-
+    .conteudo {
+        margin-right: 1em;
+    }
 }
 
 @media screen and (min-width: 700px){
@@ -69,15 +71,20 @@
         grid-template-rows: 173px auto;
         margin-right: 1em;
         width: calc(50% - 1em);
+    }
+    .conteudo {
+        margin-right: 0;
+    }
 }
 
 @media screen and (min-width: 942px){
     .populares__card {
-        width: calc(33.33% - 1em);
+        width: calc(33.33% - 1em); 
+    }
     
 }
 @media screen and (min-width: 1200px) {
     .populares__card {
         width: calc(20% - 1em);
-    
+    }
 }
