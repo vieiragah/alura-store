@@ -28,7 +28,7 @@
     .populares__card {
         grid-template-rows: 150px auto;
         width: 100%;
-        margin: 0 0 3em 0;
+        margin: 0 0 3em 0em;
     }
     .conteudo {
         margin-right: 1em;
